@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.superior {
+    padding-left: .5rem;
+    padding-right: 4rem;
+    margin: 1rem;
+    height: 15rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.topHijo1{
+    border: 1px solid;
+    width: 20rem;
+    margin: 2rem;
+    padding: 0.5rem;
+}
+.topHijo2{
+    border: 1px solid;
+    margin: 4rem;
+    display: flex;
+    width: 70rem;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    
+}
+.cuerpo {
+    height: 45rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainHijo1{
+    margin-right: 1rem;
+    border: 1px solid;
+    flex-basis: 42%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: medium;
+}
+.mainHijo1 h1{
+    font-size: larger;
+    justify-content: center;
+}
+.mainHijo2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 56%;
+   flex-grow: 1;
+   flex-shrink: 1;
+   gap: 1rem;
+
+}
+.mainHijo2 *{
+    width: calc(25% - 8px);
+}
+.bottom{ 
+    margin: 1rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 10rem;
+    border: 1px solid;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    font-size: medium;
+}

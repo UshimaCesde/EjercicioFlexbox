@@ -7,72 +7,83 @@
 html{
     font-size: 62.5%;
 }
-.superior {
-    padding-left: .5rem;
-    padding-right: 4rem;
-    margin: 1rem;
-    height: 15rem;
-    border: 1px solid;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.topHijo1{
-    border: 1px solid;
-    width: 20rem;
-    margin: 2rem;
-    padding: 0.5rem;
-}
-.topHijo2{
-    border: 1px solid;
-    margin: 4rem;
-    display: flex;
-    width: 70rem;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 1.4rem;
-    
-}
-.cuerpo {
-    height: 45rem;
-    margin: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-.mainHijo1{
-    margin-right: 1rem;
-    border: 1px solid;
-    flex-basis: 42%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    font-size: medium;
-}
-.mainHijo1 h1{
-    font-size: larger;
-    justify-content: center;
-}
-.mainHijo2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 56%;
-   flex-grow: 1;
-   flex-shrink: 1;
-   gap: 1rem;
 
+.header {
+        padding-left: .5rem;
+        padding-right: 4rem;
+        margin: 1rem;
+        height: 10rem;
+        border: 1px solid;
+        justify-content: space-around;  
+        align-items: center;
+        display: flex;
+    }
+    .topHijo1{
+
+    }
+    .topHijo2{
+
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html{
+        font-size: 62.5%;
+    }
+    
+    .header {
+            padding-left: .5rem;
+            padding-right: 4rem;
+            margin: 1rem;
+            height: 10rem;
+            border: 1px solid;
+            justify-content: space-around;  
+            align-items: center;
+            display: flex;
+        }
+        .topHijo1{
+    
+        }
+        .topHijo2{
+    
+        }
+    
+        .mainContainer{
+            margin: 1rem;
+            height: 706px;
+        }
+    .mainContainerLeft{
+        width: 38%;
+        border: 1px solid;
+        margin-right: 1rem;
+        float: left;
+        height: 100%;
+    }
+    .mainContainerRight{
+        border: 1px solid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 60%;
+        float: right;
+        height: 100%;
+        max-height: 706px;
+    }
+    
+    .mainContainerRight img{
+        width: calc(23% - 5px);
+        max-height: 235px;
+       
+    }
+    footer{
+        margin-top: 5rem;
 }
-.mainHijo2 *{
-    width: calc(25% - 8px);
-}
-.bottom{ 
-    margin: 1rem;
-    margin-left: 8px;
-    margin-right: 8px;
-    height: 10rem;
-    border: 1px solid;
-    width: 98%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    font-size: medium;
-}
+    .bottom{
+        border: 1px solid;
+        display: flex;
+        justify-content: space-around;
+    }
+   

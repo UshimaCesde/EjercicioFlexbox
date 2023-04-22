@@ -107,11 +107,13 @@ html{
          margin: 1rem;
         border: 1px solid;
         display: flex;
+        justify-content: space-between;
     }
     .horizontal3{
         margin: 1rem;
         border: 1px solid;
         display: flex;
+        justify-content: space-between;
     }
     .horizontal3Left{
         border: 1px solid;
@@ -124,7 +126,9 @@ html{
         margin: 1rem;
         border: 1px solid;
         width: 200px;
+        display: flex;
         justify-content: flex-end;
+        float: right;
     }
     .rightSide{
          margin: 1rem;

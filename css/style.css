@@ -108,12 +108,28 @@ html{
         
     }
     .horizontal1{
-         margin: 1rem;
+         margin: 2rem;
+         padding: 1rem;
          height: 20%;
         border: 1px solid;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        overflow: hidden;
+    }
+    .horizontal1Left img{
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        align-content: center;
+        justify-content: center;
+    }
+    .horizontal1Right img{
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        align-content: center;
+        justify-content: center;
     }
     .horizontal2{
         border: 1px solid;
@@ -164,11 +180,16 @@ html{
     }
     .horizontal5Right{
         margin: 1rem;
-        border: 1px solid;
         width: 200px;
         display: flex;
         justify-content: flex-end;
-        float: right;
+    }
+    .horizontal5Right img{
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        align-content: center;
+        justify-content: center;
     }
         .rightSide{
          margin: 1rem;
@@ -176,5 +197,50 @@ html{
         max-height: 100%;
         min-height: 500px;
         width: 50%;
+        display: flex;
 
+    }
+    .rightSideA{
+        margin: 2rem;
+        border: 1px solid;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .rightSideA img{
+        margin: 1rem;
+        max-height: 95%;
+        max-width: 95%;
+        object-fit: cover;
+        align-content: center;
+        justify-content: center;
+       
+    }
+    .rightSideA1{
+        height: 33%;
+    }
+     .rightSideA2{
+        height: 33%;
+        justify-content: center;
+        align-content: center;
+    } 
+    .rightSideA2 img{
+        object-fit: cover;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .rightSideA3{
+        height: 33%;
+    }
+    .rightSideA3 img{
+        object-fit: cover;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .rightSideB{
+        margin: 2rem;
+        border: 1px solid;
+        width: 50%;
     }

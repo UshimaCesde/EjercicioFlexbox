@@ -7,12 +7,16 @@
 html{
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    background-color: #eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
 }
 html h1{
     font-size: 4rem;
+    color: #d55672;
 }
 html p{
     font-size: 2rem;
+    color: #481620;
 }
 body{
     height: 100%;
@@ -38,6 +42,7 @@ body{
         flex: 1;
         height: 80%;
         z-index: 999;
+        
     }
 
     .topHijo1 img{
@@ -53,6 +58,7 @@ body{
         align-items: center;
         justify-content: space-around;
         font-size: 1.4rem;   
+        color: #481620;
     }
         .mainContainer{
             margin: 1rem;
@@ -79,6 +85,7 @@ body{
     margin-top: 5rem;
     padding: 5rem;
     text-align: justify;
+    color: #481620;
     }
     .mainContainerRight{
         display: flex;
@@ -106,6 +113,7 @@ body{
         justify-content: space-around;
         align-items: center;
         height: 10rem;
+        color: #481620;
     }
    
 
@@ -168,6 +176,7 @@ body{
             justify-content: center;  
             align-items: center;
             font-weight: bolder;  
+            color: #481620;
         }
         .horizontal3Right{
             margin: 1rem;
@@ -179,6 +188,7 @@ body{
             justify-content: center;  
             align-items: center;
             font-weight: bolder; 
+            color: #481620;
         }
     
     .horizontal4{
@@ -205,6 +215,7 @@ body{
         border-radius: 15%;
         align-items: center;
         font-weight: bolder;
+        color: #481620;
     }
     .horizontal5Right{
         margin: 1rem;
@@ -269,6 +280,7 @@ body{
     }
     .rightSideA3{
         height: 33%;
+        color: #481620;
 
     }
     .rightSideA3 img{
@@ -288,4 +300,5 @@ body{
     .rightSideB p{
         margin: 3rem;
         margin-top: 5rem;
+        color: #481620;
     }

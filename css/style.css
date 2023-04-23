@@ -6,12 +6,13 @@
 
 html{
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 html h1{
-    font-size: xx-large;
+    font-size: 4rem;
 }
 html p{
-    font-size: large;
+    font-size: 2rem;
 }
 body{
     height: 100%;
@@ -48,6 +49,7 @@ body{
         display: flex;
         flex: 1;
         width: 70rem;
+        height: 63%;
         align-items: center;
         justify-content: space-around;
         font-size: 1.4rem;   
@@ -57,14 +59,28 @@ body{
             height: 706px;
         }
     .mainContainerLeft{
+        margin: 0.5rem;
         width: 38%;
         border: 1px solid;
         margin-right: 1rem;
         float: left;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .mainContainerLeft h1{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 5rem;
+    }
+    .mainContainerLeft p{
+    margin-top: 5rem;
+    padding: 5rem;
+    text-align: justify;
     }
     .mainContainerRight{
-        border: 1px solid;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -76,7 +92,9 @@ body{
     
     .mainContainerRight img{
         width: calc(23% - 5px);
-        max-height: 235px;
+        max-height: 229px;
+        margin: 0.5rem;
+        overflow: hidden;
        
     }
     footer{ 
@@ -87,7 +105,7 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 5rem;
+        height: 10rem;
     }
    
 
@@ -109,7 +127,6 @@ body{
     }
     .horizontal1{
          margin: 2rem;
-         padding: 1rem;
          height: 20%;
         border: 1px solid;
         display: flex;
@@ -148,7 +165,9 @@ body{
             margin: 1rem;
             width: 200px;
             display: flex;
-            justify-content: flex-start;    
+            justify-content: center;  
+            align-items: center;
+            font-weight: bolder;  
         }
         .horizontal3Right{
             margin: 1rem;
@@ -157,6 +176,9 @@ body{
             display: flex;
             justify-content: flex-end;
             float: right;
+            justify-content: center;  
+            align-items: center;
+            font-weight: bolder; 
         }
     
     .horizontal4{
@@ -172,11 +194,17 @@ body{
         justify-content: space-between;
     }
     .horizontal5Left{
-        border: 1px solid;
         margin: 1rem;
         width: 200px;
         display: flex;
         justify-content: flex-start;    
+        flex-direction: column;
+        background-image: url('/img/wpp.png');
+        background-size: cover;
+        background-position: center;
+        border-radius: 15%;
+        align-items: center;
+        font-weight: bolder;
     }
     .horizontal5Right{
         margin: 1rem;
@@ -190,6 +218,15 @@ body{
         object-fit: cover;
         align-content: center;
         justify-content: center;
+        border-radius: 15%;
+    }
+    .horizontal5Left img{
+        max-height: 90%;
+        max-width: 90%;
+        object-fit: cover;
+        align-content: center;
+        justify-content: center;
+        float: left;
     }
         .rightSide{
          margin: 1rem;
@@ -232,6 +269,7 @@ body{
     }
     .rightSideA3{
         height: 33%;
+
     }
     .rightSideA3 img{
         object-fit: cover;
@@ -243,4 +281,11 @@ body{
         margin: 2rem;
         border: 1px solid;
         width: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+    .rightSideB p{
+        margin: 3rem;
+        margin-top: 5rem;
     }
